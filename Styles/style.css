@@ -1,14 +1,109 @@
 /* Universal styles starts here */
 
 /* Clears the default margin and padding */
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 /* Universal font styles */
-body{
+body {
     font-family: "Inter", "Raleway";
 }
 
 /* Universal styles ends here */
+
+
+/* Shared styles starts from here */
+
+.font-primary {
+    font-family: "Inter";
+}
+
+.font-secondary {
+    font-family: "Raleway";
+}
+
+.primary-color {
+    color: #4E47FF;
+}
+
+.secondary-color {
+    color: #252432;
+}
+
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Adds hover effect */
+.btn-primary:hover {
+    color: #252432;
+    background-color: #ff894e6c;
+    transition: .6s ease-in-out;
+}
+
+
+/* Shared styles ends from here */
+
+
+/* Header part styles starts from here */
+
+header {
+    background-image: url(../Styles/Assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0px 200px 0px;
+    margin: 0px 0px 100px 0px;
+}
+
+/* Navbar styles starts from here */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.nav-title {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    /* 51px */
+}
+
+/* Navbar styles ends from here */
+
+/* Header title and btn styles starts from here */
+
+.header-title {
+    text-align: center;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 200px 0px 50px 0px;
+}
+
+.header-btn{
+    display: flex;
+    justify-content: center;
+}
+
+/* Header title and btn styles ends from here */
+
+/* Header part styles ends from here */
