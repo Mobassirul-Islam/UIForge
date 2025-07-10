@@ -1,0 +1,14 @@
+/* Universal styles starts here */
+
+/* Clears the default margin and padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Universal font styles */
+body{
+    font-family: "Inter", "Raleway";
+}
+
+/* Universal styles ends here */
