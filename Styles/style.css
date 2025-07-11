@@ -53,6 +53,32 @@ body {
     transition: .6s ease-in-out;
 }
 
+/* Get in touch section forms label titles and placeholders */
+.form-label-title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 21.6px */
+    margin: 0px 0px 10px 0px;
+}
+
+.form-placeholder {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+}
+
+.form-input-styles {
+    padding: 20px 30px;
+    margin: 0px 0px 20px 0px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+}
+
 /* Shared styles ends from here */
 
 
@@ -276,6 +302,7 @@ main {
     border-radius: 14px;
     background: #FFF;
     padding: 70px 150px;
+    margin: 0px 0px 100px 0px;
 }
 
 /* Focus section text container styles starts from here */
@@ -310,4 +337,46 @@ img {
 
 /* Focus section img container styles ends from here */
 /* Focus section styles ends from here */
+
+/* Get in touch section styles starts from here */
+.get-in-touch-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #FFFFFF33;
+    border-radius: 14px;
+    background: #FFF;
+    padding: 70px 70px;
+    margin: 0px 0px 15px 0px;
+}
+
+/* Get in touch section title styles starts from here */
+.get-in-touch-section-text-container {
+    width: 100%;
+}
+
+.get-in-touch-section-title {
+    font-size: 97px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 116.4px */
+}
+
+/* Get in touch section title styles ends from here */
+
+/* Get-in-touch-section-form-container styles starts from here */
+.get-in-touch-section-form-container {
+    width: 60%;
+}
+
+.get-in-touch-section-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Get-in-touch-section-form-container styles ends from here */
+
+/* Get in touch section styles ends from here */
 /* Main part styles ends from here */
