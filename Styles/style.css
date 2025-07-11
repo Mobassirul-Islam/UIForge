@@ -1,5 +1,4 @@
 /* Universal styles starts here */
-
 /* Clears the default margin and padding */
 * {
     margin: 0;
@@ -15,7 +14,6 @@ body {
 
 
 /* Shared styles starts from here */
-
 .font-primary {
     font-family: "Inter";
 }
@@ -31,7 +29,6 @@ body {
 .secondary-color {
     color: #252432;
 }
-
 
 .btn-primary {
     color: #FFF;
@@ -55,7 +52,6 @@ body {
     transition: .6s ease-in-out;
 }
 
-
 /* Shared styles ends from here */
 
 
@@ -70,7 +66,6 @@ header {
 }
 
 /* Navbar styles starts from here */
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -89,7 +84,6 @@ header {
 /* Navbar styles ends from here */
 
 /* Header title and btn styles starts from here */
-
 .header-title {
     text-align: center;
     font-size: 65px;
@@ -99,11 +93,173 @@ header {
     margin: 200px 0px 50px 0px;
 }
 
-.header-btn{
+.header-btn {
     display: flex;
     justify-content: center;
 }
 
 /* Header title and btn styles ends from here */
-
 /* Header part styles ends from here */
+
+
+/* Main part styles starts from here */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Action section styles starts from here */
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 100px 0px;
+}
+
+/* Action section text container styles starts from here */
+.action-title {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 0px 20px 0px;
+}
+
+.action-description {
+    margin: 0px 0px 20px 0px;
+    color: rgba(37, 36, 50, 0.50);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 125% */
+}
+
+/* Action section text container styles ends from here */
+
+/* Action section img container styles starts from here */
+.action-img-container img {
+    border-radius: 48px;
+}
+
+/* Action section img container styles ends from here */
+/* Action section styles ends from here */
+
+/* Users info section styles starts from here */
+.users-info-section {
+    padding: 50px 80px;
+    margin: 0px 0px 130px 0px;
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.10);
+}
+
+/* Users info title styles starts from here */
+.users-info-title {
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 0px 40px 0px;
+}
+
+/* Users info title styles ends from here */
+
+/* Users info information styles starts from here */
+.users-info-information-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.users-info-information-title {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.users-info-information-description {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Users info information styles ends from here */
+/* Users info section styles ends from here */
+
+/* Users feedback section styles starts from here */
+.users-feedback-section{
+    margin: 0px 0px 130px 0px;
+}
+
+/* Users feedback section title styles starts from here */
+.users-feedback-title {
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 0px 50px 0px;
+}
+
+/* Users feedback section title styles ends from here */
+
+/* Users feedback section cards container styles starts from here */
+.feedback-cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback-cards {
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+    background: #FFFFFF80;
+    padding: 24px;
+}
+
+/* Feedback cards text container styles starts from here */
+.feedback-cards-text-container {
+    margin: 0px 0px 24px 0px;
+}
+
+
+.feedback-cards-title {
+    margin: 24px 0px 8px 0px;
+}
+
+/* Feedback cards text container styles ends from here */
+
+/* Feedback cards profile avatar info container styles starts from here */
+.feedback-cards-profile-avatar-info-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.feedback-cards-profile-avatar {
+    border-radius: 100%;
+}
+
+.feedback-cards-profile-info-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    margin: 0px 0px 2px 0px;
+}
+
+.feedback-cards-profile-info-description {
+    color: #B3B3B3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+/* Feedback cards profile avatar info container styles ends from here */
+/* Users feedback section cards container styles ends from here */
+/* Users feedback section styles ends from here */
+/* Main part styles ends from here */
